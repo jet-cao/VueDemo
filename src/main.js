@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import './registerServiceWorker'
+import './components/mock/index'// 记得在main.js导入mock
+import './axios/axiosSetting'
 
 Vue.config.productionTip = false
 
